@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>A PLUS || ACADEMY</title>
+</head>
+
+<body>
+    <!----navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success py-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/pngq1.png" class="png1" alt="image"></a>
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <a class="navbar-brand" href="aboutus.html">ABOUT US</a>
+            <a class="navbar-brand" href="contactus.html">CONTACT US</a>
+            <a class="navbar-brand" href="weekly.html">WEEKLY GRAND TEST</a>
+
+        </div>
+    </nav>
+    <!-------->
+
+    <!-----header-->
+    <div class="row">
+        <div class="col-12">
+            <img src="images/assmnt.jpg" class="resp" width="1260px" height="400vh" alt="">
+        </div>
+    </div>
+    <!----------->
+
+    <!----mini head-->
+    <div class="container">
+        <div class="row align-items-md-stretch my-4 mx-3">
+            <div class="col-md-6 my-3">
+                <img src="images/grnd.jpg" class="resp2" height="400px" width="500px" alt="">
+            </div>
+            <div class="col-md-6 h-40">
+                <div class="h-40 p-2 bg-light border rounded-3 my-4 mx-3">
+                    <marquee behavior="" direction="up">
+                        <ul>
+                            <li>
+                                <p>You must have heard people say after the exam:
+                                    "I wish I had one more chance. I did some silly mistakes."
+                                    " Just make the exam happen again and I will do wonders."
+                                    " Lets write a mail to NBE, we are not satisfied with the exam and want a re-exam"
+                                </p>
+                            </li>
+                            <li>
+                                <p>And the All Time Favorite:
+                                    "I had a good preparation, did my theory well. But The exam didn't go that well.
+                                    Give me another chance, fodh daalunga !!!"</p>
+                            </li>
+                            <li>
+                                <p>if you start giving Grand tests/Mock tests early, you will get many chances to
+                                    rectify the mistakes and follow up by giving more tests again. The more times you
+                                    will attempt the test, the more you will come across the possible problems that
+                                    could arise and that is how the skill develops. It takes time.
+                                </p>
+                            </li>
+                            <li>
+                                <p>For a lot of people, being engaged in social media is a part of their daily life and
+                                    for some it is the only social part of their day. This is when social media starts
+                                    affecting your attention span, you want to keep scrolling through your feed and you
+                                    start craving more and more it keeps your engagement levels high.</p>
+                            </li>
+                        </ul>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+
+        <!------>
+        <div class="container text-center">
+            <main class="form-signin">
+                <form method="post" action="mail.php" >
+                    <img class="mb-4" src="images/reg.jpg" alt="" width="300" height="200">
+                    <h1 class="h3 mb-3 fw-normal">PLEASE REGISTER FOR THE GRAND TEST</h1>
+                    <marquee direction="left" class="text-white bg-danger py-2 font-lg">PLEASE REGISTER FOR GRAND TEST
+                        HERE</marquee>
+
+                    <div class="form-floating my-3">
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <label for="floatingInput">Full Name</label>
+                    </div>
+
+                    <div class="form-floating my-3">
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating my-3">
+                        <input type="number" class="form-control" id="number" placeholder="Number">
+                        <label for="floatingPassword">Phone Number</label>
+                    </div>
+
+                    <div class="checkbox mb-3 my-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> READY FOR THE GRAND TEST
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary my-3" type="submit" onsubmit="sendEmail()" >SUBMIT</button>
+                    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+                </form>
+            </main>
+        </div>
+
+
+        <!----footer-->
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 fot">
+
+                    <table>
+                        <tr>
+                            <td class="f1"><a href="index.html">HOME</a></td>
+                        </tr>
+                        <tr>
+                            <td class="f1"><a href="aboutus.html">ABOUT US</a></td>
+                        </tr>
+                        <tr>
+                            <td class="f1"><a href="contactus.html">CONTACT US</a></td>
+                        </tr>
+
+                    </table>
+
+                    <ul class="log">
+                        <li><a href=""><i class="bi bi-facebook bif"></i></a></li>
+                        <li><a href=""><i class="bi bi-instagram bif "></i></a></li>
+                        <li><a href=""></a><i class="bi bi-twitter bif"></i></li>
+                        <li><a href=""><i class="bi bi-github bif"></i></a></li>
+                    </ul>
+                    <h6 class="p1">SET UP BY FAQ AGENCY<br>COPYRIGHT CHAKRI IN 2022<br>TERMS & CONDITIONS | LEGAL
+                        NOTICE | PRIVECY</h6>
+                </div>
+            </div>
+        </div>
+
+        <!----->
+
+        <!------
+
+
+        <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"></script>
+
+        <script>
+            function sendEmail() {
+                var name = $("#name").val();
+                var name = $("#email").val();
+                var name = $("#number").val();
+                Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "chakribabu.feb@gmail.com",
+                    Password: "BA075235E79CBDD1373C56B401BA33974C86",
+                    To: 'chakribabu.feb@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "NEW CONTACT",
+                    Body: "NAME : " + document.getElementById("name").value
+                        + "<br> EMAIL :" + document.getElementById("email").value
+                        + "<br> PHONE NUMBER : " + Document.getElementById("number").value
+                }).then(
+                    message => alert("MESSAGE SEND SUCCESSFULLY")
+                );
+            }
+        </script>
+
+        ------>
+
+
+        
+</body>
+
+</html>

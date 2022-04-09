@@ -1,0 +1,136 @@
+.carousel-inner{
+    height: 120vh;
+}
+
+.png1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.footer .fot{
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.log li{
+    display: inline-block;
+}
+
+ul li{
+    text-decoration: none;
+    line-height: 15px;
+}
+
+.footer{
+text-decoration: none;
+margin-top: 100px;
+background-color: black;
+}
+
+
+.bif{
+ font-size: 30px;
+ border: 1px solid white;
+ padding: 5px;
+ margin: 5px;
+ color: white;
+ 
+}
+
+.log{
+    margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+
+.faq{
+    margin-top: 10px;
+}
+
+.faq ul{
+    text-decoration: none;
+}
+
+.p1{
+    margin-bottom: 10px;
+    color: white;
+    line-height: 30px;
+}
+
+table{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+.bi-facebook:hover{
+    color: #3285a8;
+}
+
+
+.bi-instagram:hover{
+    color:#8a3ab9;
+}
+
+.bi-twitter:hover{
+    color: #3285a8;
+}
+
+.bi-github:hover{
+    color: grey;
+}
+
+.test{
+    border-radius: 50%;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bi-star-fill , .bi-star-half {
+    font-size: 20px;
+    color: orange;
+    margin-left: 15px;
+}
+
+.nav-item{
+    line-height: 30px;
+}
+
+.fot a{
+    color: white;
+    line-height: 40px;
+}
+
+@media (max-width:500px){
+    .resp{
+        width: 330px;
+        height: 250px;
+    }
+
+    .resp2{
+        width: 280px;
+        height: 250px;
+    }
+
+    .ram{
+        margin-top: 0;
+    }
+
+    .nam{
+        font-size: 15px;
+    }
+
+   
+}
+
+
