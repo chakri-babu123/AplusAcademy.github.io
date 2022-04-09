@@ -113,12 +113,12 @@ ul li{
 
 @media (max-width:500px){
     .resp{
-        width: 350px;
+        width: 400px;
         height: 250px;
     }
 
     .resp2{
-        width: 300px;
+        width: 400px;
         height: 250px;
     }
 
