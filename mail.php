@@ -1,12 +1,11 @@
 <?php
 //get data from form  
 $name = $_POST['name'];
-$email= $_POST['email'];
 $number= $_POST['number'];
-$to = "chakribabu.feb@gmail.com";
+$to = "chakribabu.feb@mail.com";
 $subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n number =" . $number;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
+$txt ="Name = ". $name . "\r\n  number = " . $number . ";
+$headers = "From: noreply@codeconia.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
