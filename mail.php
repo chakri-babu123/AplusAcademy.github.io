@@ -1,15 +1,13 @@
 <?php
 //get data from form  
-$name = $_POST['name'];
-$number= $_POST['number'];
-$to = "chakribabu.feb@mail.com";
-$subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  number = " . $number . ";
-$headers = "From: noreply@codeconia.com" . "\r\n" .
-"CC: somebodyelse@example.com";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
+$name = $_REQUEST['name'];
+$number= $_REQUEST['number'];
+
+if(empty($name || empty ($number)){
+   echo "Please Fill All Data";
 }
-//redirect
-header("Location:thankyou.html");
+else {
+       mail("chakribabu.feb@gmail.com","GRAND TEST MESSAGE","From: $name <$number>");
+    echo "<script type="text/javascript">alert('YOUR MESSAGE SEND SUCCESSFULLY');window.history.log(-1);</script>"
+}
 ?>
