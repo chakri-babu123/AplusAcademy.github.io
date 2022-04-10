@@ -84,33 +84,18 @@
 
         <!------>
         <div class="container text-center">
-            <main class="form-signin">
-                <form action="mail.php" >
-                    <img class="mb-4" src="images/reg.jpg" alt="" width="300" height="200">
-                    <h1 class="h3 mb-3 fw-normal">PLEASE REGISTER FOR THE GRAND TEST</h1>
-                    <marquee direction="left" class="text-white bg-danger py-2 font-lg">PLEASE REGISTER FOR GRAND TEST
-                        HERE</marquee>
-
-                    <div class="form-floating my-3">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                        <label>Full Name</label>
-                    </div>
-
-                   
-                    <div class="form-floating my-3">
-                        <input type="number" class="form-control" id="number" placeholder="Number">
-                        <label>Phone Number</label>
-                    </div>
-
-                    <div class="checkbox mb-3 my-3">
-                        <label>
-                            <input type="checkbox" value="remember-me"> READY FOR THE GRAND TEST
-                        </label>
-                    </div>
-                    <button class="w-100 btn btn-lg btn-primary my-3" type="submit">SUBMIT</button>
-                    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-                </form>
-            </main>
+            <div class="main">
+		<img class="mb-4" src="images/reg.jpg" alt="" width="300" height="200">
+		<div class="info">GRAND TEST REGISTER HERE</div>
+		<form action="mail_handler.php" method="post" name="form" class="form-box">
+			<label for="name">Name</label><br>
+			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+			<label for="number">Phone Number</label><br>
+			<input type="number" name="number" class="inp" placeholder="Enter Your Number" required><br>
+			
+			<input type="submit" name="submit" value="Send" class="sub-btn">
+		</form>
+	</div>
         </div>
 
 
